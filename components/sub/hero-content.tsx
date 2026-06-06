@@ -31,7 +31,7 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto leading-tight md:leading-normal"
+          className="flex flex-col gap-6 mt-6 text-3xl sm:text-5xl md:text-6xl font-bold text-white max-w-[500px] md:max-w-[600px] w-auto h-auto leading-tight md:leading-normal"
         >
           <span>
             {portfolioData.profile.heroPrefix}
@@ -44,7 +44,7 @@ export const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-300 md:text-gray-400 my-5 max-w-[500px] md:max-w-[600px]"
         >
           {portfolioData.profile.heroDescription}
         </motion.p>
@@ -67,7 +67,7 @@ export const HeroContent = () => {
           height={650}
           width={650}
           draggable={false}
-          className="select-none"
+          className="select-none opacity-70 md:opacity-100 scale-90 md:scale-100"
         />
       </motion.div>
     </motion.div>
