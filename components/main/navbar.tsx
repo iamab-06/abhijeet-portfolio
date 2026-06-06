@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { LINKS, NAV_LINKS, SOCIALS } from "@/constants";
+import { portfolioData } from "@/data/portfolioData";
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,14 +19,14 @@ export const Navbar = () => {
           className="flex items-center"
         >
           <Image
-            src="/logo.png"
-            alt="Logo"
+            src={portfolioData.profile.logoSrc}
+            alt={portfolioData.profile.logoAlt}
             width={70}
             height={70}
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">{portfolioData.profile.logoText}</div>
         </Link>
 
         {/* Web Navbar */}
@@ -48,7 +49,7 @@ export const Navbar = () => {
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              {portfolioData.navigation.sourceCodeText}
             </Link>
           </div>
         </div>
@@ -98,7 +99,7 @@ export const Navbar = () => {
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Source Code
+              {portfolioData.navigation.sourceCodeText}
             </Link>
           </div>
 

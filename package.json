@@ -1,5 +1,5 @@
 {
-  "name": "space-portfolio",
+  "name": "abhijeet-portfolio",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -9,17 +9,16 @@
     "lint": "eslint ."
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Abhijeet Bhat",
+    "email": "abhijeetbhat6205@gmail.com",
+    "url": "https://github.com/iamab-06"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Abhijeet Bhat's Full Stack Next.js Portfolio.",
   "keywords": [
     "reactjs",
     "nextjs",
     "vercel",
     "react",
-    "space-portfolio",
     "portfolio",
     "react-icons",
     "cn",
@@ -46,25 +45,6 @@
     "css"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
-  },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
-  },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@react-three/drei": "^10.7.7",
