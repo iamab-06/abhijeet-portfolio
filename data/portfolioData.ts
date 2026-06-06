@@ -73,7 +73,8 @@ export const portfolioData = {
       {
         title: "About",
         data: [
-          { name: "Contact Me", icon: null, link: "mailto:abhijeetbhat6205@gmail.com" },
+          { name: "Resume", icon: null, link: "/abhi_resume.pdf" },
+          { name: "Email Me", icon: null, link: "mailto:abhijeetbhat6205@gmail.com" },
         ],
       },
     ],
@@ -93,8 +94,14 @@ export const portfolioData = {
       { skill_name: "Next.js", image: "next.png", width: 80, height: 80 },
       { skill_name: "Tailwind CSS", image: "tailwind.png", width: 80, height: 80 },
       { skill_name: "Framer Motion", image: "framer.png", width: 80, height: 80 },
+      { skill_name: "HTML", image: "html.png", width: 80, height: 80 },
+      { skill_name: "CSS", image: "css.png", width: 80, height: 80 },
     ] as Array<{skill_name: string; image: string; width: number; height: number;}>,
-    backendSkill: [] as Array<{skill_name: string; image: string; width: number; height: number;}>,
+    backendSkill: [
+      { skill_name: "PostgreSQL", image: "postgresql.png", width: 70, height: 70 },
+      { skill_name: "MongoDB", image: "mongodb.png", width: 40, height: 40 },
+      { skill_name: "MySQL", image: "mysql.png", width: 70, height: 70 },
+    ] as Array<{skill_name: string; image: string; width: number; height: number;}>,
     fullstackSkill: [] as Array<{skill_name: string; image: string; width: number; height: number;}>,
     otherSkill: [] as Array<{skill_name: string; image: string; width: number; height: number;}>,
   },
@@ -104,14 +111,14 @@ export const portfolioData = {
       {
         title: "pathMate",
         description: "A route-planning and navigation platform designed to help users discover efficient travel paths, optimize decision-making, and improve location-based experiences through intelligent routing capabilities.",
-        image: "/projects/project-1.png", // REQUIRES_VERIFICATION
-        link: "https://github.com/iamab-06/pathMate",
+        image: "/projects/pathmate.png",
+        link: "https://path-mate-three.vercel.app/",
       },
       {
-        title: "Js_learning",
-        description: "A hands-on JavaScript learning repository documenting concepts, experiments, problem-solving approaches, and practical implementations developed while strengthening core programming fundamentals.",
-        image: "/projects/project-2.png", // REQUIRES_VERIFICATION
-        link: "https://github.com/iamab-06/Js_learning",
+        title: "TurboMesh",
+        description: "A decentralized peer-to-peer GPU sharing platform that enables users to contribute idle GPU resources and access distributed compute power for AI workloads, rendering, and high-performance computing tasks.",
+        image: "/projects/turbo.png",
+        link: "https://github.com/iamab-06/TurboMesh",
       },
     ],
   },
@@ -126,7 +133,14 @@ export const portfolioData = {
   forge: {},
   nexus: {},
   origin: {},
-  achievements: [],
+  achievements: [
+    "Shortlisted for HackWithInfy Round 2 (Infosys national-level)",
+    "Runner-Up at IEEE coding event",
+    "3rd place at ByteSurge contest",
+    "Solved 350+ LeetCode and 1000+ CodeChef/GFG problems",
+    "5th place at Hack-CSE-lerate; participated in 4+ hackathons",
+    "Organized an event under PATHFINDER club, managing logistics for 500+ attendees."
+  ],
   education: [
     {
       institution: "Siddaganga Institute of Technology (SIT), Tumakuru",
