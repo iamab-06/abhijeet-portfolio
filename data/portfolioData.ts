@@ -110,15 +110,15 @@ export const portfolioData = {
     list: [
       {
         title: "pathMate",
-        description: "A route-planning and navigation platform designed to help users discover efficient travel paths, optimize decision-making, and improve location-based experiences through intelligent routing capabilities.",
+        description: "A full-stack mentorship platform with JWT-based authentication, RBAC, and session booking. Features a multi-parameter mentor discovery system and asynchronous email notifications, deployed using a decoupled architecture on Vercel and Render.",
         image: "/projects/pathmate.png",
         link: "https://path-mate-three.vercel.app/",
       },
       {
-        title: "TurboMesh",
-        description: "A decentralized peer-to-peer GPU sharing platform that enables users to contribute idle GPU resources and access distributed compute power for AI workloads, rendering, and high-performance computing tasks.",
-        image: "/projects/turbo.png",
-        link: "https://github.com/iamab-06/TurboMesh",
+        title: "SecurePay AI",
+        description: "A production-grade AI-powered digital payments platform featuring wallet management, beneficiary onboarding, secure peer-to-peer transfers, fraud detection, risk scoring, and double-entry ledger accounting. Built with financial-grade transaction integrity, real-time risk analysis, and role-based access control.",
+        image: "/projects/securepay.png",
+        link: "https://github.com/iamab-06/TurboMesh", // REQUIRES_VERIFICATION: Update to SecurePay AI repo URL
       },
     ],
   },
