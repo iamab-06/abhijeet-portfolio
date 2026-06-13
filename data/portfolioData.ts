@@ -118,7 +118,7 @@ export const portfolioData = {
         title: "SecurePay AI",
         description: "A production-grade AI-powered digital payments platform featuring wallet management, beneficiary onboarding, secure peer-to-peer transfers, fraud detection, risk scoring, and double-entry ledger accounting. Built with financial-grade transaction integrity, real-time risk analysis, and role-based access control.",
         image: "/projects/securepay.png",
-        link: "https://github.com/iamab-06/TurboMesh", // REQUIRES_VERIFICATION: Update to SecurePay AI repo URL
+        link: "https://securepay-ai-kappa.vercel.app/",
       },
     ],
   },
